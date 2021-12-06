@@ -22,5 +22,9 @@ TARGET_OTA_ASSERT_DEVICE := crownltexx,crownlteks,crownlte
 # Kernel
 TARGET_KERNEL_CONFIG := exynos9810-crownlte_defconfig
 
+# Partitions
+BOARD_VENDORIMAGE_PARTITION_SIZE := 681574400
+BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
+
 # Inherit common board flags
 include device/samsung/universal9810-common/BoardConfigCommon.mk
