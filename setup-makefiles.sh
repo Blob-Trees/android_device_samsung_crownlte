@@ -39,7 +39,7 @@ source "${HELPER}"
 setup_vendor "${DEVICE}" "${VENDOR}" "${LINEAGE_ROOT}"
 
 # Copyright headers and guards
-write_headers "starlte"
+write_headers "crownlte"
 
 # The standard blobs
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
