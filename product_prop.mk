@@ -18,10 +18,12 @@
 
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.sf.lcd_density=560
+
 # Elixir Stuffs
-org.elixir.device.name=Samsung Galaxy Note 9
-ro.elixir.device.name=Samsung Galaxy Note 9
-ro.elixir.device=crownlte
-ro.elixir.maintainer=Cyder  
-ro.elixir.maintainer.username=Cyderxxv
-ro.elixir.group.url=t.me/Elixir_Discussion
+PRODUCT_PRODUCT_PROPERTIES += \
+    org.elixir.device.name=Samsung Galaxy Note 9 \
+    ro.elixir.device.name=Samsung Galaxy Note 9 \
+    ro.elixir.device=crownlte \
+    ro.elixir.maintainer=Cyder \
+    ro.elixir.maintainer.username=Cyderxxv \
+    ro.elixir.group.url=t.me/Elixir_Discussion
