@@ -25,7 +25,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some WeebProject stuffs.
 $(call inherit-product, vendor/weeb/config/common_full_phone.mk)
-WITH_GMS=true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := crownlte
