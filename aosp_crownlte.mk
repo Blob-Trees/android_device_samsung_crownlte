@@ -24,7 +24,7 @@ $(call inherit-product, device/samsung/crownlte/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := crownlte
@@ -35,8 +35,4 @@ PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
-BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.211001.001/7641976:user/release-keys
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-        PRODUCT_NAME=crownltexx \
-        PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.211001.001 7641976 release-keys"
+USE_GAPPS := true
