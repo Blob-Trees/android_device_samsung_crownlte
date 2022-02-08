@@ -23,10 +23,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, device/samsung/crownlte/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common Elixir stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 Elixir_MAINTAINER := Cyder
+TARGET_FACE_UNLOCK_SUPPORTED := true
 CUSTOM_BUILD_TYPE := OFFICIAL
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_INCLUDE_STOCK_ACORE := false
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := crownlte
