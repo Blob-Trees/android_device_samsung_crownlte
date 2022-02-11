@@ -21,9 +21,5 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Elixir Stuffs
 PRODUCT_PRODUCT_PROPERTIES += \
-    org.elixir.device.name=Samsung Galaxy Note 9 \
-    ro.elixir.device.name=Samsung Galaxy Note 9 \
-    ro.elixir.device=crownlte \
-    ro.elixir.maintainer=Cyder \
-    ro.elixir.maintainer.username=Cyderxxv \
-    ro.elixir.group.url=t.me/Elixir_Discussion
+    ro.elixir.maintainer=Cyder
+    org.elixir.device=Samsung Galaxy Note 9
