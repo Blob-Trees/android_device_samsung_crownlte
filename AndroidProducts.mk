@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_crownlte.mk
+    $(LOCAL_DIR)/xtended_crownlte.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_crownlte-userdebug \
-    aosp_crownlte-eng \
-    aosp_crownlte-user
+    xtended_crownlte-userdebug \
+    xtended_crownlte-eng \
+    xtended_crownlte-user
