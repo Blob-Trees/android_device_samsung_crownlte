@@ -23,18 +23,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, device/samsung/crownlte/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Evolution X stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
-EVO_BUILD_TYPE := UNOFFICIAL
-TARGET_SUPPORTS_QUICK_TAP := true
+# Inherit some common Komodo stuff.
+$(call inherit-product, vendor/komodo/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := crownlte
-PRODUCT_NAME := evolution_crownlte
+PRODUCT_NAME := komodo_crownlte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-N960F
 PRODUCT_MANUFACTURER := samsung
 
+# Komodo Stuff
+KOMODO_OFFICIAL := false
+KOMODO_GAPPS_TYPE := nogapps
+KOMODO_VARIANT := RELEASE
+TARGET_BOOT_ANIMATION_RES := 1080
+USE_PIXEL_CHARGING := true
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.211001.001/7641976:user/release-keys

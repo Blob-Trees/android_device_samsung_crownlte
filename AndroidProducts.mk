@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_crownlte.mk
+    $(LOCAL_DIR)/komodo_crownlte.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_crownlte-userdebug \
-    evolution_crownlte-eng \
-    evolution_crownlte-user
+    komodo_crownlte-userdebug \
+    komodo_crownlte-eng \
+    komodo_crownlte-user
