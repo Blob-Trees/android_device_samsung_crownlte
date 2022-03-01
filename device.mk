@@ -15,6 +15,7 @@
 #
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+PRODUCT_PACKAGES += $(LOCAL_PATH)/overlay-xdroid
 
 # Property overrides
 -include $(LOCAL_PATH)/product_prop.mk

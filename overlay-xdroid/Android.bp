@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "overlay-xdroid",
+    sdk-version: "current",
+    resource-dirs: ["res"],
+    vendor: true,
+}
