@@ -24,11 +24,17 @@ $(call inherit-product, device/samsung/crownlte/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/spark/config/common_full_phone.mk)
+
+# Quick Tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := crownlte
-PRODUCT_NAME := aosp_crownlte
+PRODUCT_NAME := spark_crownlte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-N960F
 PRODUCT_MANUFACTURER := samsung
